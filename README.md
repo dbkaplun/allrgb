@@ -1,4 +1,10 @@
-allrgb
+AllRGB
 ======
 
-Generates the closest image to a 16777216-pixel image with the all RGB colors and the same dimensions
+Generates an image with every RGB color exactly once
+
+Usage
+-----
+
+    allrgb.py generate -i image.png -o image.out.png
+    allrgb.py test -i image.out.png
