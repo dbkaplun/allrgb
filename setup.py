@@ -9,7 +9,7 @@ setup(
   description="Generates an image with every RGB color exactly once",
   author="Dan Kaplun",
   author_email='min@dvir.us',
-  url='http://github.com/beardtree/allrgb',
+  url='http://github.com/dbkaplun/allrgb',
   scripts=['allrgb.py'],
   install_requires=[str(req.req) for req in parse_requirements('requirements.txt')]
 )
